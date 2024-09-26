@@ -1,6 +1,5 @@
-matplotlib
+matplotlib=
 numpy
 streamlit
 streamlit_scrollable_textbox
 sympy
-time

@@ -11,7 +11,6 @@ import streamlit_scrollable_textbox as stx
 import matplotlib.pyplot as plt
 
 # For creating the csv file
-import sys
 import sympy as sp
 import time
 

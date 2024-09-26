@@ -1,0 +1,6 @@
+matplotlib==3.8.0
+numpy==1.23.5
+seaborn==0.13.2
+streamlit==1.35.0
+streamlit_scrollable_textbox==0.0.3
+sympy==1.12

@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 
 # For creating the csv file
 import sympy as sp
-import time
 
 ###############################################################################
 # Functions

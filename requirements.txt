@@ -3,5 +3,4 @@ numpy
 streamlit
 streamlit_scrollable_textbox
 sympy
-sys
 time

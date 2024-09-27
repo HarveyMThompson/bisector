@@ -2,4 +2,3 @@ matplotlib
 numpy
 streamlit
 sympy
-streamlit_scrollable_textbox==0.0.3

@@ -7,7 +7,7 @@
 # Python implementation of the Bisector algorithm for use in Tkinter
 import numpy as np
 import streamlit as st
-#import streamlit_scrollable_textbox as stx
+import streamlit_scrollable_textbox as stx
 import matplotlib.pyplot as plt
 
 # For creating the csv file
@@ -225,13 +225,13 @@ if 'plotgraph' not in st.session_state:
         st.pyplot(figplt)        
         # st.text(st.session_state.Calcs)
         st.write("Bisector Calculations")
-        #stx.scrollableTextbox(st.session_state.Calcs,height=200)
+        stx.scrollableTextbox(st.session_state.Calcs,height=200)
 else:
     figplt = create_plot()
     st.pyplot(figplt)        
     # st.text(st.session_state.Calcs)
     st.write("Bisector Calculations")
-    #stx.scrollableTextbox(st.session_state.Calcs,height=200)
+    stx.scrollableTextbox(st.session_state.Calcs,height=200)
 
 # animate calculations
 if st.button("Animate Graph"):
